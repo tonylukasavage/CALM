@@ -1,0 +1,1 @@
+scr_show_text("JUNE: uuuuuhhhh...", TEXTBOX_POSITION.bottom);
