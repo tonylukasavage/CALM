@@ -1,6 +1,7 @@
 // incoming arguments
 textbox_content = argument0;
 textbox_position = is_undefined(argument1) ? TEXTBOX_POSITION.bottom : argument1; 
+text_index = string_pos(":", textbox_content) + 1;
 
 // create instance of textbox
 textbox = instance_create_layer(0, 0, "Inst_TextBox", obj_text_box);
@@ -33,6 +34,7 @@ textbox.y2 = y2;
 // calculate position of text within textbox
 anim = textbox.text_animated;
 anim.text_content = textbox_content;
+anim.text_index = text_index;
 anim.x = x1 + textbox.text_padding;
 anim.y = y1 + textbox.text_padding;
 anim.text_width = x2 - x1;

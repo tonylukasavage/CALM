@@ -1,4 +1,4 @@
-text_speed = 4;
+text_speed = 3;
 text_font_color = c_white;
 text_content = "";
 text_width = 0;
