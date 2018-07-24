@@ -43,3 +43,6 @@ anim.text_width = x2 - x1;
 next = textbox.text_next;
 next.x = x2 - textbox.text_padding - next.size;
 next.y = y2 - textbox.text_padding/2 - next.size;
+
+// create global to reference the textbox
+global.textbox = textbox;

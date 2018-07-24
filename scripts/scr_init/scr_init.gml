@@ -4,6 +4,12 @@ enum TEXTBOX_POSITION {
 	bottom = 2
 };
 
+enum PLAYER_STATE {
+	active = 1,
+	inactive = 2,
+	text = 3
+};
+
 // establish global controller
 global.controller = instance_create_depth(0, 0, 0, obj_controller);
 
