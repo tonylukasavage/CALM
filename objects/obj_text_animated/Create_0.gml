@@ -1,8 +1,9 @@
-text_speed = 3;
+text_speed = 1;
 text_font_color = c_white;
-text_content = "";
+text_content[0] = "";
 text_width = 0;
 no_animate = false;
+text_content_index = 0;
 text_index = 1;
-is_finished = false;
+is_waiting = false;
 timer = 0;
