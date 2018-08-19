@@ -1,3 +1,3 @@
 with (global.controller.june) {
-	image_speed = 0;
+	sprite_index = spr_june_idle_left;
 }

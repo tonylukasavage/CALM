@@ -10,5 +10,3 @@ with (global.controller.june) {
 	sprite_index = spr_june_submerged;
 	path_start(Path_JuneWashUp, 1.25, path_action_stop, true);
 }
-
-// charlie is right behind her

@@ -16,5 +16,6 @@ global.events = ds_map_create();
 
 // start initial cutscene
 room_first.timeline_index = Cutscene_Intro;
+global.timeline = room_first.timeline_index;
 room_first.timeline_position = 0;
 room_first.timeline_running = true;

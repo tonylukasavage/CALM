@@ -7,7 +7,7 @@ if (textbox.text_content_index >= len - 1) {
 	instance_destroy(textbox);	
 	instance_destroy(textbox_next);
 	instance_destroy(textbox_base);
-	global.state = GAME_STATE.active;
+	//global.state = GAME_STATE.active;
 } else {
 	global.state = GAME_STATE.inactive;
 	textbox.text_content_index++;

@@ -26,9 +26,13 @@ textbox_width = width - (x_padding * 2);
 textbox_height = 200;
 x1 = x_padding;
 x2 = width - x_padding;
+
+show_debug_message(textbox_position);
+show_debug_message(TEXTBOX_POSITION.top);
+
 if (textbox_position == TEXTBOX_POSITION.top) {
 	y1 = y_padding;
-	y2 = height + y_padding;
+	y2 = textbox_height + y_padding;
 } else {
 	y1 = height - textbox_height - y_padding;
 	y2 = height - y_padding;
@@ -45,7 +49,7 @@ anim.text_content = textbox_content;
 //anim.text_index = text_index;
 anim.x = x1 + textbox.text_padding;
 anim.y = y1 + textbox.text_padding;
-anim.text_width = x2 - x1;
+anim.text_width = x2 - x1 - textbox.text_padding*2;
 
 // calculate position of next text indicator
 next = textbox.text_next;

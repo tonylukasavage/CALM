@@ -1,8 +1,9 @@
 if (is_waiting) { return; }
 
 timer++
-if (timer > text_speed) {
-	text_index++;	
+if (timer >= text_speed) {
+	text_index = text_index + 2;
+	//text_index++;	
 	len = string_length(text_content[text_content_index]);
 	if (text_index >= len) {
 		text_index = len;
