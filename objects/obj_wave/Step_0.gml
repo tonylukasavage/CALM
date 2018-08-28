@@ -15,7 +15,7 @@ if (isActive) {
 				image_alpha = 0;
 				//audio_stop_sound(waveSound);
 				instance_destroy();	
-				instance_create_layer(0, -32, "Inst_Waves", obj_wave);
+				instance_create_layer(0, -32, "Instances", obj_wave);
 			}
 		} else {
 			pauseTimer++;	

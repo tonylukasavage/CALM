@@ -1,9 +1,13 @@
-with(global.controller.june) {
-	sprite_index = spr_june_idle_right;
+with(global.june) {
+	sprite_index = spr_june_side;
+	image_speed = 0;
+	image_xscale = 1;
 }
 
-with(global.controller.charlie) {
-	sprite_index = spr_charlie_idle_left;
+with(global.charlie) {
+	sprite_index = spr_charlie_side;
+	image_speed = 0;
+	image_xscale = -1;
 }
 
 words4[0] = "CHARLIE: uuuuhhh... my head.... where the heck are we?";

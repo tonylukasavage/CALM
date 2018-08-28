@@ -1,1 +1,1 @@
-instance_create_layer(0, 0, "Layer_Lightning", obj_lightning_strike);
+instance_create_layer(0, 0, "Filters", obj_lightning_strike);

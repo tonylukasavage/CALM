@@ -1,4 +1,4 @@
-with(global.controller.june) {
+with(global.june) {
 	sprite_index = spr_june_submerged_nowater;	
-	layer = layer_get_id("Inst_Players");
+	layer = layer_get_id("Instances");
 }

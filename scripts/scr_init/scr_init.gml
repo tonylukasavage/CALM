@@ -11,7 +11,6 @@ enum GAME_STATE {
 };
 
 global.state = GAME_STATE.inactive;
-global.controller = instance_create_depth(0, 0, 0, obj_controller);
 global.events = ds_map_create();
 
 // start initial cutscene

@@ -1,6 +1,6 @@
-with(global.controller.charlie) {
+with(global.charlie) {
 	sprite_index = spr_charlie_submerged_nowater;	
-	layer = layer_get_id("Inst_Players");
+	layer = layer_get_id("Instances");
 }
 
 words2[0] = "JUNE: CHARLIE!!!";
