@@ -1,1 +1,0 @@
-waveCounter = 0;

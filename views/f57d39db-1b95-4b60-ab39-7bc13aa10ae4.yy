@@ -9,7 +9,8 @@
         "ace6f0b2-2f59-4afe-b4b5-a30bdfb31bab",
         "b74bf45a-cef4-47f2-a3b1-6fe4db116a53",
         "98c4da7c-4afc-4fdd-a3fe-816227094124",
-        "06d6462e-51d6-4644-bbb2-c67df39757f5"
+        "06d6462e-51d6-4644-bbb2-c67df39757f5",
+        "fb38b339-0c9c-4cb6-8d93-4bc7a2cda5e6"
     ],
     "filterType": "GMSprite",
     "folderName": "charlie",

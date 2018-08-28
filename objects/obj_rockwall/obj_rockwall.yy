@@ -5,11 +5,11 @@
     "name": "obj_rockwall",
     "eventList": [
         {
-            "id": "259ba82f-db3f-466f-bb7a-37a2c4b94944",
+            "id": "a3c13675-e45c-4a5f-a41b-bc68a9245694",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "853283a1-9167-4bb7-9f2d-2f8a12ef63db",
+            "collisionObjectId": "36f89dbe-5500-402e-9799-c50fa5c19371",
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "24d2b374-f689-45b2-b79e-383d8c4a6ee7"

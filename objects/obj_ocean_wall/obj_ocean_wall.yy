@@ -5,11 +5,11 @@
     "name": "obj_ocean_wall",
     "eventList": [
         {
-            "id": "b3183253-a0d6-4747-a667-d538176070b0",
+            "id": "b696bf04-961a-442a-bc33-f47a6d4c50ad",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "853283a1-9167-4bb7-9f2d-2f8a12ef63db",
+            "collisionObjectId": "36f89dbe-5500-402e-9799-c50fa5c19371",
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "0abe39d3-0e22-4bba-9843-dd3cf1137440"
