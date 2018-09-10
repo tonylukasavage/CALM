@@ -47,6 +47,7 @@ switch(global.state) {
 		
 		// see if the run button is down
 		if (gamepad_button_check(player_device, gp_face4)) {
+			show_debug_message("go fast");
 			current_walk_speed = walk_speed * 2;
 			image_speed = 30;
 			action_count++;

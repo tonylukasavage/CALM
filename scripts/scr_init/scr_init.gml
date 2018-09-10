@@ -15,6 +15,8 @@ global.events = ds_map_create();
 
 instance_create_layer(300, 300, "Instances", obj_june);
 
+instance_create_layer(800, 300, "Instances", obj_charlie);
+
 /*
 // start initial cutscene
 room_first.timeline_index = Cutscene_Intro;
